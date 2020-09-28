@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>templates</title>
+  </head>
+  <body>
+    <h1>Welcome to the texxt analyzer:Enter your text below</h1>
+    <form action='/analyze' method='get'>
+      <textarea name='text' style="margin: 0px; width: 538px; height: 128px;"></textarea><br>
+      <input type='checkbox' name='removepunc'>Remove Punctuations<br>
+      <input type='checkbox' name='fullcaps'>UPPER<br>
+      <input type='checkbox' name='newlineremove'>NewLineRemove<br>
+      <input type='checkbox' name='extraspaceremove'>Extra Space Remove<br>
+      <button type="submit">Analize Text</button>
+
+    </form>
+  </body>
+</html>
